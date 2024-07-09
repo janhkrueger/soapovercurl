@@ -1,0 +1,11 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:soap1="http://guidewire.com/ws/soapheaders" xmlns:mes="http://guidewire.com/pc/ws/gw/webservice/pc/pc1000/MessagingToolsAPI">
+   <soap:Header>
+      <soap1:gw_locale>en_US</soap1:gw_locale>
+      <soap1:gw_language>en_US</soap1:gw_language>
+   </soap:Header>
+   <soap:Body>
+      <mes:suspendDestinationBothDirections>
+         <mes:destID>2</mes:destID>
+      </mes:suspendDestinationBothDirections>
+   </soap:Body>
+</soap:Envelope>

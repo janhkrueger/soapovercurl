@@ -1,0 +1,1 @@
+ curl -H "Authorization: Basic $(echo -n user:pass | base64)" --header "Content-Type: text/xml;charset=UTF-8" --header "SOAPAction:getMessagesInfo_Bde" --data @suspendDestination-pc_2.xml https://gwpc.hostname.com/pc/ws/gw/webservice/pc/pc1000/MessagingToolsAPI/soap11

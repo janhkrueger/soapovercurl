@@ -1,0 +1,12 @@
+	<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://guidewire.com/ws/soapheaders" xmlns:mes="http://guidewire.com/bc/ws/gw/webservice/bc/MessagingToolsAPI">
+   <soapenv:Header>
+      <soap:traceability_id>1111</soap:traceability_id>
+      <soap:gw_locale>en_US</soap:gw_locale>
+      <soap:gw_language>en_US</soap:gw_language>
+   </soapenv:Header>
+   <soapenv:Body>
+      <mes:getMessagesInfo_Bde>
+         <mes:destID>6</mes:destID>
+      </mes:getMessagesInfo_Bde>
+   </soapenv:Body>
+</soapenv:Envelope>

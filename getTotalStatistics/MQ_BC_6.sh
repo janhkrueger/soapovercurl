@@ -1,0 +1,1 @@
+ curl -H "Authorization: Basic $(echo -n user:pass | base64)" --header "Content-Type: text/xml;charset=UTF-8" --header "SOAPAction:getMessagesInfo_Bde" --data @request-bc_6.xml https://envname.hostname.com/bc/ws/gw/webservice/bc/MessagingToolsAPI/soap11

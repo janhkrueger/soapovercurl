@@ -1,0 +1,7 @@
+USER@COMPUTER MINGW64 ~/MessageQueue
+$ sh MQ_BC_6.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0curl: (7) Failed to connect to gwbc.hostname.com port 443: Timed out
+curl: (1) Protocol "C" not supported or disabled in libcurl
+

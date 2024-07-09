@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<tns:Envelope xmlns:tns="http://schemas.xmlsoap.org/soap/envelope/">
+  <tns:Header>
+    <gwsoap:traceability_id xmlns:gwsoap="http://guidewire.com/ws/soapheaders">1111</gwsoap:traceability_id>
+  </tns:Header>
+  <tns:Body>
+    <getMessagesInfo_BdeResponse xmlns="http://guidewire.com/bc/ws/gw/webservice/bc/MessagingToolsAPI">
+      <return>
+        <Entry xmlns:pogo="http://example.com/bde/messagingTools">
+          <pogo:ErrorDescription>java.lang.RuntimeException: java.util.concurrent.TimeoutException</pogo:ErrorDescription>
+          <pogo:EventName>AssignEftToPolicy</pogo:EventName>
+          <pogo:PolicyNumber>V8194M4127</pogo:PolicyNumber>
+          <pogo:SendTime>2020-09-04T10:09:45.962+02:00</pogo:SendTime>
+          <pogo:StatusCode>4</pogo:StatusCode>
+        </Entry>
+      </return>
+    </getMessagesInfo_BdeResponse>
+  </tns:Body>
+</tns:Envelope>
